@@ -1,0 +1,72 @@
+*{
+    font-family: 'Roboto Mono', monospace;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+body.main_page{
+    background-image: url("/images/dn_dozor.jpg");
+    background-size: cover;
+}
+body.about{
+    background-image: url("https://i.gifer.com/1g4T.gif");
+    background-size: cover;
+}
+/*                                                      HEADER */
+
+header{
+    background-color: white;
+    height: 75px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom: black;
+}
+header.about{
+    background-color: #3cb49e;
+    height: 75px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom: black;
+}
+
+header button{
+    -webkit-appearance: none;
+        -moz-appearance: none;
+            appearance: none;
+    border-color: white;
+    width: 100px;
+    float: right;
+    margin-right: 75px;
+    margin-top: 5px;
+    padding: 0px;
+    font-size: 13px;
+}
+header button:hover{
+    background-color: #8f8f8f;
+}
+
+i{
+    color:white;
+}
+
+header ul{
+    width: 90px;
+    background-color: #000000;
+    margin: 10;
+    padding: 0;
+    list-style-type: none;
+}
+
+header ul:hover{
+    background-color: #8f8f8f;
+}
+/*                                                   MAIN*/
+
+main{
+    background-color: white;
+    height: 90%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
